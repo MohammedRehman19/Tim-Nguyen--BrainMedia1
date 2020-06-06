@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A0F41D56-CB83-AA46-387E-148BD800F329}</ProjectGuid>
+    <ProjectGuid>{0DC8BC72-E0D5-7C55-796C-7E8DD436D01F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Zenject-UnitTests-Editor</AssemblyName>
@@ -382,10 +382,10 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Zenject-usage">
-      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll</HintPath>
+      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Tim-Nguyen--BrainMedia/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Tim-Nguyen--BrainMedia/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -742,25 +742,25 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Tim-Nguyen--BrainMedia/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Tim-Nguyen--BrainMedia/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Tim-Nguyen--BrainMedia/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Extenject-master/Extenject-master/UnityProject/Tim-Nguyen--BrainMedia/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Zenject.csproj">
-      <Project>{A7B767C1-43EC-E187-81D4-F7F952625355}</Project>
+      <Project>{929412ED-6C4A-912E-669A-EDDE434A0799}</Project>
       <Name>Zenject</Name>
     </ProjectReference>
     <ProjectReference Include="Zenject-TestFramework.csproj">
-      <Project>{A34D74B7-EA67-4467-AE9A-EEC665B4B557}</Project>
+      <Project>{DF3D341E-B180-39E9-C0EF-A91AAD95EFDF}</Project>
       <Name>Zenject-TestFramework</Name>
     </ProjectReference>
   </ItemGroup>

@@ -11,8 +11,8 @@ public class UnityDBCSCustom : MonoBehaviour
 {
 
 	public AutoBox auto = null;
-    private string _context;
-    [HideInInspector]
+    public string _context;
+   
     public List <string> levels = new List<string>();
     void Start ()
 	{
@@ -110,7 +110,33 @@ public class UnityDBCSCustom : MonoBehaviour
         DrawToString(levelindex);
 
     }
+    public void RemoveNumber(int levelindex, string num)
+    {
+        levels[levelindex] = num;
 
+        var selection1 = auto.SelectKey<Item>("Item", "ComposedItem");
+        selection1.name = "ComposedItem";
+        if (levelindex == 0)
+        {
+            selection1.selection1 = levels[levelindex];
+        }
+        else if (levelindex == 1)
+        {
+            selection1.selection2 = levels[levelindex];
+        }
+        else if (levelindex == 2)
+        {
+            selection1.selection3 = levels[levelindex];
+        }
+        else if (levelindex == 3)
+        {
+            selection1.selection4 = levels[levelindex];
+        }
+        auto.Update("Item", selection1);
+
+        DrawToString(levelindex);
+
+    }
     void DrawToString (int levelindex)
 	{
 		_context = "";
