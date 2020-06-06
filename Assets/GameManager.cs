@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
         foreach(GameObject temp in clickedObject)
         {
             temp.transform.parent.transform.GetChild(2).GetComponent<RawImage>().enabled = false;
-            
+            temp.transform.parent.transform.GetChild(3).GetChild(0).GetChild(0).GetComponent<Image>().enabled = false;
         }
 
         clickedObject = new List<GameObject>(0);
