@@ -757,7 +757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &279777975
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1557,6 +1557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7a9efa4467f61746bc5e225ce75ca38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bar: {fileID: 279777977}
   FadeOut: {fileID: 684520364}
   clickedObject: []
 --- !u!114 &856423168

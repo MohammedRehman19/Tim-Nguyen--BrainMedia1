@@ -6,9 +6,11 @@ using UnityEngine.EventSystems;
 using UnityEditor.Experimental.GraphView;
 using System.Linq;
 using UnityEditor;
+using UnityEditorInternal;
 
 public class GameManager : MonoBehaviour
 {
+    public Scrollbar bar;
     public GameObject FadeOut;
     UnityDBCSCustom DBCC;
     [HideInInspector]
@@ -79,6 +81,7 @@ public class GameManager : MonoBehaviour
                 buttonSetup(GameObject.Find(temp.ToString()));
             }
         FadeOut.SetActive(false);
+        bar.gameObject.SetActive(true);
     }
 
     void removeLetter(string letter)
