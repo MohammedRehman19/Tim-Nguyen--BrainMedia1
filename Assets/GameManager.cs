@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         DBCC = GetComponent<UnityDBCSCustom>();
-        Invoke("iniSetup",2f);
+        StartCoroutine(waitofOSA());
     }
 
     // Update is called once per frame
@@ -112,5 +112,16 @@ public class GameManager : MonoBehaviour
         buttont.transform.parent.transform.GetChild(2).GetComponent<RawImage>().enabled = false;
         clickedObject.Remove(buttont.transform.parent.transform.GetChild(2).gameObject);
     }
+    
 
+        IEnumerator waitofOSA()
+    {
+        while (GetComponent<GetTextures>().OSA.active)
+        {
+
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        iniSetup();
+    }
 }
